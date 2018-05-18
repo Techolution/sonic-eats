@@ -1,0 +1,94 @@
+* {
+  /* border: 1px solid red; */
+  font-family: Verdana;
+  margin: 0px;
+}
+
+.header-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px;
+  background-color: white;
+}
+
+.header-logo-container {
+  height: 60px;
+}
+
+.header-logo {
+  height: 100%;
+}
+
+.login-control {
+  display: flex;
+  flex-direction: row;
+}
+
+.login-control button {
+  height: 50px;
+  width: 100px;
+  padding: 15px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-light {
+  background-color: rgb(254, 223, 58);
+}
+
+.btn-dark {
+  background-color: black;
+  color: white;
+}
+
+.banner h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.burgers {
+  width: 33%;
+}
+
+.cart-icon {
+  width: 30px;
+}
+
+main {
+  height: 1000px;
+  background-image: url('images/big-burger.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 160px;
+}
+
+.title h1 {
+  font-size: 40px;
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 10px;
+}
+
+.title p {
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 5px;
+}
