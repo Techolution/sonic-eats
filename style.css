@@ -186,4 +186,19 @@ main {
   font-size: 12px;
 }
 
+.division {
+  background-color: rgb(250, 250, 250);
+  height: 150px;
+}
+
+footer {
+  color: lightgrey;
+  background-color: rgb(46, 60, 71);
+  height: 300px;
+}
+
+footer p{
+  padding: 30px;
+}
+
 
