@@ -156,8 +156,27 @@ main {
 }
 
 .product-container {
-  border: 1px solid red;
   width: 25%;
 }
 
+.product-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  text-align: center;
+}
 
+.product-image img {
+  height: 80%;
+  padding-top: 60px;
+}
+
+.product-header {
+  padding: 10px;
+  text-align: center;
+}
+
+.product-description {
+  /* border: 1px solid green; */
+  text-align: center;
+}
