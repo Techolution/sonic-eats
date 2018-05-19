@@ -151,4 +151,13 @@ main {
   width: 90%;
   height: 400px;
   background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
 }
+
+.product-container {
+  border: 1px solid red;
+  width: 25%;
+}
+
+
